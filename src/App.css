@@ -1,9 +1,3 @@
 .App {
   text-align: center;
 }
-
-div.Board {
-  background-image: url("recources/board/syougiban_b.png");
-  width: 915px;
-  height: 915px;
-}
