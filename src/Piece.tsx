@@ -37,21 +37,21 @@ type PieceProps = {
 
 function PieceImage(type: PieceType) {
   if (type === "Pawn") {
-    return <img src={piecePawn} />;
+    return <img src={piecePawn} alt={type} />;
   } else if (type === "Lance") {
-    return <img src={pieceLance} />;
+    return <img src={pieceLance} alt={type} />;
   } else if (type === "Knight") {
-    return <img src={pieceKnight} />;
+    return <img src={pieceKnight} alt={type} />;
   } else if (type === "Silver") {
-    return <img src={pieceSilver} />;
+    return <img src={pieceSilver} alt={type} />;
   } else if (type === "Gold") {
-    return <img src={pieceGold} />;
+    return <img src={pieceGold} alt={type} />;
   } else if (type === "Bishop") {
-    return <img src={pieceBishop} />;
+    return <img src={pieceBishop} alt={type} />;
   } else if (type === "Rook") {
-    return <img src={pieceRook} />;
+    return <img src={pieceRook} alt={type} />;
   } else if (type === "King") {
-    return <img src={pieceKing} />;
+    return <img src={pieceKing} alt={type} />;
   }
 }
 
