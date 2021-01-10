@@ -10,6 +10,7 @@ import pieceRook from "./recources/koma/syougi_koma01_y_04.png";
 import pieceKing from "./recources/koma/syougi_koma01_y_01.png";
 
 const Player = ["Black", "White"] as const;
+// eslint-disable-next-line
 export type Player = typeof Player[keyof typeof Player];
 
 const PieceType = [
@@ -23,6 +24,7 @@ const PieceType = [
   "Ou",
   "King",
 ] as const;
+// eslint-disable-next-line
 export type PieceType = typeof PieceType[keyof typeof PieceType];
 
 type Col = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
